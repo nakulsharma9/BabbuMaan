@@ -1,0 +1,84 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.btn{
+    width:90px;
+    height:40px;
+    font-family: Montserrat;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border: 2.5px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 350ms ease;
+}
+.custom-btn{
+    height: 80px;
+    width: 80px;  
+    border: 0rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+.btn2{
+    width:130px;
+    height:40px;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 2.5px solid transparent;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 350ms ease;
+    margin-right: 1.2rem;
+    margin-top: 4rem;
+}
+.btn3{
+    width:130px;
+    height:40px;
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 2.5px solid transparent;
+    border-radius: 18px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+.btn-primary{
+    background: var(--primary);
+    color: var(--pure);
+}
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.btn-secondary{
+    background: transparent;
+    color: var(--dark);
+    border-color: var(--primary);
+}
+.btn-secondary:hover{
+    background: var(--primary);
+    border-color: var(--primary);
+    color: var(--pure);
+}
+.flex-1{
+    flex: 1;
+}
