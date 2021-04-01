@@ -119,6 +119,12 @@ section.profileSection h4{
     word-spacing: 1rem;
     text-align: center;
 }
+section.profileSection h4::before{
+    content:"\201C";
+}
+section.profileSection h4::after{
+    content: "\201D";
+}
 
 .inspire {
     background-color: #000;
