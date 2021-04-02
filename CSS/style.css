@@ -406,16 +406,19 @@ section .rectOutr .rectInner .link{
 /* GET-STARTED PAGE  */
 /* THIS IS THE CSS FOR GET STARTED PAGE  */
 
-section .top h1{
+/* section .rect-upload{
+    color: var(--primary);
+} */
+/* section .top h1{
     color: var(--primary);
     text-align: center;
     font-size: 3.3rem;
     font-family: Poppins;
     letter-spacing: 0.15rem;
     padding: 1rem 2rem;
-}
+} */
 
-.formrect{
+/* .formrect{
     max-width: 31.25rem ;
     width: 100%;
     background: var(--primary);
@@ -442,7 +445,7 @@ section .top h1{
     resize: none;
     border-radius: 0.3rem;
     opacity: 64%;
-}
+} */
 .footer-sec{
     background-color: #000;
 }
