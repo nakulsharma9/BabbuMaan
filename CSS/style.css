@@ -316,6 +316,7 @@ section .rectOutr .rectInner .loginbox input[type="text"],
     height: 28px;
     width: 300px;
     color: var(--primary);
+    opacity:64%;
     font-size: 16px;
 }
   
