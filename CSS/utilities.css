@@ -22,16 +22,7 @@
     text-transform: uppercase;
     transition: all 350ms ease;
 }
-.custom-btn{
-    height: 4.1rem;
-    width: 4.1rem;  
-    border: 0rem;
-    border-radius: 50%;
-    cursor: pointer;
-    background-color: transparent;
-    padding: 2rem;
-    margin-left: 25rem;
-  }
+
 .btn2{
     width:130px;
     height:40px;
