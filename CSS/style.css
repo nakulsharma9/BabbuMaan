@@ -5,6 +5,7 @@
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
+    --pink:#FF6584;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -81,14 +82,9 @@ header nav .right a{
     margin-top:2.5rem;
 } 
 section.profileSection{
-    display: flex;
-    flex-direction: row;
-    margin-top: 2rem;
-    margin-bottom: 6rem;
+    padding-top: 5rem;
+    margin-bottom: 10rem;
 }
-/* section.profileSection .clas2Section{
-    flex-direction: column;
-} */
 section.profileSection .left{
     margin-right: 2.5rem;
 }
@@ -115,13 +111,18 @@ section.profileSection h4{
     font-family: Poppins;
     font-weight: 400;
     word-spacing: 0.6rem;
+    padding-top:10rem;
     text-align: center;
 }
 section.profileSection h4::before{
     content:"\201C";
+    font-size: 3.125rem;
+    color: #FF6584;
 }
 section.profileSection h4::after{
     content: "\201D";
+    font-size: 3.125rem;
+    color: #FF6584;
 }
 
 .inspire {
@@ -133,12 +134,12 @@ section.profileSection h4::after{
     text-align: center;
     font-size: 3.5rem;
     font-family: Poppins;
-    font-weight: 400;
+    font-weight: 200;
     margin-bottom: 5rem;
 }
 .inspire .container .content h3 span{
     color: #4A47A3;
-    font-size: large;
+    font-weight: 200;
     font-size: 3.5rem;
 }
 .inspire .container .content .rect{
