@@ -83,7 +83,7 @@ header nav .right a{
 } 
 section.profileSection{
     padding-top: 5rem;
-    margin-bottom: 10rem;
+    margin-bottom: 8rem;
 }
 section.profileSection .left{
     margin-right: 2.5rem;
@@ -111,21 +111,21 @@ section.profileSection h4{
     font-family: Poppins;
     font-weight: 400;
     word-spacing: 0.6rem;
-    padding-top:10rem;
+    padding-top:7rem;
     text-align: center;
 }
 section.profileSection h4::before{
     content:"\201C";
     font-size: 3.125rem;
-    color: #FF6584;
 }
 section.profileSection h4::after{
     content: "\201D";
     font-size: 3.125rem;
-    color: #FF6584;
 }
 
 .inspire {
+    padding-top:4rem;
+    padding-bottom: 6rem;
     background-color: #000;
     align-items: center;
 }
@@ -146,10 +146,12 @@ section.profileSection h4::after{
     justify-content: center;
     background-color: #4040407a;
     height: 40rem;
+    margin-bottom: 3rem;
 }
 .inspire .container .content .rect h2{
     text-align: center;
     color: gray;
+    font-weight: 100;
 }
 .inspire .container .content .rect img{
     display: block;
@@ -159,10 +161,6 @@ section.profileSection h4::after{
     width: 6.5rem;
     height: 6.5rem;
 }
-
-section.inspire {
-     padding: 6rem 0;
- }
 section .left h1{
      color: var(--dark);
      font-size: 2rem;
@@ -223,7 +221,8 @@ section .note{
  }
  section .container .msg h2{
      font-size: 1.4rem;
-     font-weight: 100;
+     font-family: Raleway;
+     font-weight: 400;
  }
  section .container .msg span{
      text-transform: uppercase;
