@@ -394,10 +394,11 @@ section .top h1{
     padding: 1rem 2rem;
 }
 section.upload{
-    /* background-color:var(--primary); */
-    padding: 4rem 0;
     background-image: url("/images/back-upload.png");
-  background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    width: 112rem;
+    height: 78.75rem;
+    background-size: cover;
 }
 section.upload .uploadclas h2{
     text-align: center;
