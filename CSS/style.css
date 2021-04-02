@@ -396,6 +396,8 @@ section .top h1{
 section.upload{
     /* background-color:var(--primary); */
     padding: 4rem 0;
+    background-image: url("/images/back-upload.png");
+  background-repeat: no-repeat;
 }
 section.upload .uploadclas h2{
     text-align: center;
