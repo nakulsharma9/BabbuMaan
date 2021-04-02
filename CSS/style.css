@@ -5,7 +5,6 @@
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
-    --pink:#FF6584;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -82,28 +81,44 @@ header nav .right a{
     margin-top:2.5rem;
 } 
 section.profileSection{
-    padding-top: 5rem;
-    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
 }
+/* section.profileSection .clas2Section{
+    flex-direction: column;
+} */
 section.profileSection .left{
     margin-right: 2.5rem;
 }
 section.profileSection .left h3{
     font-size: 1.25rem;
     font-weight: 400;
+
 }
 .profileSection  .left h1{
     font-size: 3.3rem;
+    color: var(--dark);
     font-weight: 600;
+
     text-align: left;
 }
 .profileSection  .left h2{
     font-size: 2.5rem;
+    color: var(--primary);
     text-align: left;
+
 }
 .profileSection  .left img{
     margin: 3.5rem 3rem;
 }
+.profileSection .left h3{
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
 section.profileSection h4{
     flex-direction: column;
     color: var(--primary);
@@ -111,21 +126,16 @@ section.profileSection h4{
     font-family: Poppins;
     font-weight: 400;
     word-spacing: 0.6rem;
-    padding-top:7rem;
     text-align: center;
 }
 section.profileSection h4::before{
     content:"\201C";
-    font-size: 3.125rem;
 }
 section.profileSection h4::after{
     content: "\201D";
-    font-size: 3.125rem;
 }
 
 .inspire {
-    padding-top:4rem;
-    padding-bottom: 6rem;
     background-color: #000;
     align-items: center;
 }
@@ -134,24 +144,22 @@ section.profileSection h4::after{
     text-align: center;
     font-size: 3.5rem;
     font-family: Poppins;
-    font-weight: 200;
+    font-weight: 400;
     margin-bottom: 5rem;
 }
 .inspire .container .content h3 span{
     color: #4A47A3;
-    font-weight: 200;
+    font-size: large;
     font-size: 3.5rem;
 }
 .inspire .container .content .rect{
     justify-content: center;
     background-color: #4040407a;
     height: 40rem;
-    margin-bottom: 3rem;
 }
 .inspire .container .content .rect h2{
     text-align: center;
     color: gray;
-    font-weight: 100;
 }
 .inspire .container .content .rect img{
     display: block;
@@ -161,21 +169,11 @@ section.profileSection h4::after{
     width: 6.5rem;
     height: 6.5rem;
 }
-section .left h1{
-     color: var(--dark);
-     font-size: 2rem;
-     font-weight: 600
- } 
- section .left h2{
-    color: var(--primary);
-    font-size: 1.5rem;
-    font-weight: 600;
+
+section.inspire {
+     padding: 6rem 0;
  }
-section .left h3{
-     font-family: Montserrat;
-     font-size: 1rem;
-     font-weight: 100;
- }
+
 section .note{
      color: var(--primary);
      font-family:Montserrat;
@@ -221,8 +219,7 @@ section .note{
  }
  section .container .msg h2{
      font-size: 1.4rem;
-     font-family: Raleway;
-     font-weight: 400;
+     font-weight: 100;
  }
  section .container .msg span{
      text-transform: uppercase;
@@ -242,16 +239,11 @@ section.appreciate{
     color: #B9B7FF;
     text-align: center;
 }
-.cup{
-    opacity: 30%;
-    z-index: -1;
-    transform: translate(3%, 0);
-}
-/* section{
-    margin-top: 2px;
-    background-color: var(--pure);
-    
-} */
+
+
+/* LOGIN AND SIGNUP */
+/* THIS IS THE CSS FOR LOGIN AND SIGNUP PAGE  */
+
 section .rectOutr{
     height: 620px;
     border-radius: 5px;
@@ -384,7 +376,12 @@ section .rectOutr .rectInner .link{
     border-radius: 20px;
     cursor: pointer;
 
-}  
+} 
+
+
+/* GET-STARTED PAGE  */
+/* THIS IS THE CSS FOR GET STARTED PAGE  */
+
 section .top h1{
     color: var(--primary);
     text-align: center;
@@ -425,7 +422,6 @@ section .rectupload h3{
     padding: 0 9rem;
 }
 section .rectupload img{
-    /* width: 40rem; */
     background-color: transparent;
 }
 section .rectupload h3 span{
@@ -493,9 +489,9 @@ section.upload .wrapper{
     display: none;
     background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
   } */
-  .wrapper.active:hover .file-name{
+.wrapper.active:hover .file-name{
     display: block;
-  }
+}
 .wrapper .cstmbtn{
     padding: 2rem;
 }
@@ -509,19 +505,22 @@ section.upload .wrapper{
 }
 .formrect .form{
     width: 100%;
-}
-.formrect .form .inputbox{
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
+    height: 200%;
 }
 .formrect .form .inputbox label{
-    width: 200px;
-    color: var(--dark);
-    margin-right: 10px;
-   font-size: 1.5rem;
+    width: 100%;
+    color: var(--pure);
+    display: block;
+    margin-right: 0.62rem;
+    padding-bottom: 0.35rem;
+    font-size: 1.4rem;
 }
-
+.formrect .form .inputbox .textarea{
+    width: 100%;
+    height: 2.5rem;
+    resize: none;
+    opacity: 64%;
+  }
 footer{
     bottom: 0rem;
     width: 100%;
