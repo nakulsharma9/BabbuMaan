@@ -23,11 +23,12 @@
     transition: all 350ms ease;
 }
 .custom-btn{
-    height: 80px;
-    width: 80px;  
+    height: 4.1rem;
+    width: 4.1rem;  
     border: 0rem;
     border-radius: 50%;
     cursor: pointer;
+    /* padding: 2rem; */
   }
 .btn2{
     width:130px;
