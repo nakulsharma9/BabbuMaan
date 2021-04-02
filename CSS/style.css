@@ -239,6 +239,11 @@ section.appreciate{
     color: #B9B7FF;
     text-align: center;
 }
+
+/* LOGIN AND SIGNUP */
+/* THIS IS THE CSS FOR LOGIN AND SIGNUP PAGE  */
+
+
 section .rectOutr{
     height: 620px;
     border-radius: 5px;
@@ -371,7 +376,12 @@ section .rectOutr .rectInner .link{
     border-radius: 20px;
     cursor: pointer;
 
-}  
+} 
+
+/* GET-STARTED PAGE  */
+/* THIS IS THE CSS FOR GET STARTED PAGE  */
+
+
 section .top h1{
     color: var(--primary);
     text-align: center;
