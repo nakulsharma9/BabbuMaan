@@ -242,16 +242,6 @@ section.appreciate{
     color: #B9B7FF;
     text-align: center;
 }
-.cup{
-    opacity: 30%;
-    z-index: -1;
-    transform: translate(3%, 0);
-}
-/* section{
-    margin-top: 2px;
-    background-color: var(--pure);
-    
-} */
 section .rectOutr{
     height: 620px;
     border-radius: 5px;
@@ -493,9 +483,9 @@ section.upload .wrapper{
     display: none;
     background: linear-gradient(135deg,#3a8ffe 0%,#9658fe 100%);
   } */
-  .wrapper.active:hover .file-name{
+.wrapper.active:hover .file-name{
     display: block;
-  }
+}
 .wrapper .cstmbtn{
     padding: 2rem;
 }
@@ -509,19 +499,22 @@ section.upload .wrapper{
 }
 .formrect .form{
     width: 100%;
-}
-.formrect .form .inputbox{
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
+    height: 200%;
 }
 .formrect .form .inputbox label{
-    width: 200px;
-    color: var(--dark);
-    margin-right: 10px;
-   font-size: 1.5rem;
+    width: 100%;
+    color: var(--pure);
+    display: block;
+    margin-right: 0.62rem;
+    padding-bottom: 0.35rem;
+    font-size: 1.4rem;
 }
-
+.formrect .form .inputbox .textarea{
+    width: 100%;
+    height: 2.5rem;
+    resize: none;
+    opacity: 64%;
+  }
 footer{
     bottom: 0rem;
     width: 100%;
