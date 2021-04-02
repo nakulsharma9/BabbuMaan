@@ -577,3 +577,10 @@ footer .footer span{
     font-weight: 200;
     font-size: 3.3rem;
 }
+.rectOutr h6{
+    font-size: 4rem;
+    font-weight: 400;
+    padding-top: 5.5rem;
+    padding-bottom: 3.5rem;
+    white-space: 0.2rem;
+}
