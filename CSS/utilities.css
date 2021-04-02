@@ -28,7 +28,9 @@
     border: 0rem;
     border-radius: 50%;
     cursor: pointer;
-    /* padding: 2rem; */
+    background-color: transparent;
+    padding: 2rem;
+    margin-left: 25rem;
   }
 .btn2{
     width:130px;
