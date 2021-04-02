@@ -405,7 +405,18 @@ section .rectOutr .rectInner .link{
 
 /* GET-STARTED PAGE  */
 /* THIS IS THE CSS FOR GET STARTED PAGE  */
-
+.card{
+    display: grid;
+    grid-template-columns: repeat(1,8fr);
+}
+.card .card-wrap{
+    padding-bottom: 2rem;
+}
+.card .card-wrap input{
+    width: 655px;
+    height:32px;
+    border-radius: 10px;
+}
 /* section .rect-upload{
     color: var(--primary);
 } */
