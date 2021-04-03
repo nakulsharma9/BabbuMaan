@@ -429,6 +429,8 @@ section.mainGet-1 h1{
 .card h3{
     color: var(--pure);
     text-align: center;
+    font-size: 1.31rem;
+    font-weight: 100;
 }
 .cardin{
     padding-top: 4rem;
