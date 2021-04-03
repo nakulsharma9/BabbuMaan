@@ -408,15 +408,14 @@ section.mainGet-1 h1{
     padding: 2rem;
     font-family: Poppins;
     font-size: 4rem;
-    font-weight: 400;
-    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.45);
+    font-weight: 300;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
 }
 .rect-upload{
     width: 690px;
     height: 397px;
     background-color:var(--primary);
     border-radius: 31px;
-
 }
 .card{
     background-color: var(--primary);
@@ -431,15 +430,12 @@ section.mainGet-1 h1{
 .mainGet-1 h3{
     color: var(--primary);
     text-align: center;
-<<<<<<< HEAD
-    font-size: 1.4rem;
-    font-family: Raleway;
-    text-transform: capitalize;
-    font-weight: 400;
-=======
     font-size: 1.31rem;
-    font-weight: 100;
->>>>>>> 314348c307d1fbd74ec7bba8f93ba4a9e74d957b
+    font-family: Raleway;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 .cardin{
     padding-top: 4rem;
