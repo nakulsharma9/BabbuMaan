@@ -399,6 +399,7 @@ section .rectOutr .rectInner .link{
 
 section.mainGet-1 h1{
     color: var(--primary);
+    border: var(--dark);
     text-align: center;
     padding: 2rem;
     font-family: Poppins;
