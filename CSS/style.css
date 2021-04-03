@@ -487,6 +487,7 @@ section.mainGet-1 h1{
     font-size: 1.2rem;
     border-radius: 0.4rem;
     border: none;
+    outline: none;
 }
 
 /* GET STARTED PAGE SECOND */
@@ -512,6 +513,7 @@ section.mainGet-1 h1{
 }
 .tag-warp input{
     width: 702px;
+    outline: none;
     padding-top: 2rem;
     height: 450px;
     color: var(--primary);
