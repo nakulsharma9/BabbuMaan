@@ -512,12 +512,7 @@ section.mainGet-1 h1{
 }
 .tag-warp input{
     width: 702px;
-<<<<<<< HEAD
     padding-top: 6rem;
-=======
-    outline: none;
-    padding-top: 2rem;
->>>>>>> 3720ab7ad37c0b377aeee2f12908b2e260d612e5
     height: 450px;
     color: var(--primary);
     font-size: 3rem;
