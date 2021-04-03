@@ -268,8 +268,8 @@ section.appreciate{
 /* THIS IS THE CSS FOR LOGIN AND SIGNUP PAGE  */
 
 section .rectOutr{
-    height: 620px;
-    border-radius: 5px;
+    height: 38.75rem;
+    border-radius: 0.3rem;
     background-color: var(--primary);
     position: relative;
     width: fit-width;
@@ -277,13 +277,13 @@ section .rectOutr{
     margin-top:9rem;
 }
 section .rectOutr .rectInner{
-    height: 577px;
-    border-radius: 8px;
+    height: 36rem;
+    border-radius: 0.5rem;
     background-color: var(--pure);
     position: relative;
     left: 35%;
     top: 3%;
-    width: 524px;    
+    width: 32.75rem;    
 }
 
 section .rectOutr .rectInner .login{  
@@ -295,12 +295,12 @@ section .rectOutr .rectInner h2{
     font-family: Montserrat;
     color:var(--primary);
     font-weight: 400;
-    font-size: 42px;
+    font-size: 2.6rem;
 }
 
 section .rectOutr .rectInner .loginbox {
-    margin-top: 60px;
-    height: 300px;
+    margin-top: 3.75rem;
+    height: 18.75rem;
     background: var(--pure);
     color: var(--primary);
     top: 50%;
@@ -308,14 +308,14 @@ section .rectOutr .rectInner .loginbox {
     position: absolute;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
-    padding: 70px 30px;
+    padding: 70px 1.9rem;
 }
   
 section .rectOutr .rectInner h1 {
     margin: 0;
-    padding: 0 0 20px;
+    padding: 0 0 1.25rem;
     text-align: center;
-    font-size: 22px;
+    font-size: 1.3rem;
 }
   
 section .rectOutr .rectInner .loginbox p {
@@ -325,49 +325,39 @@ section .rectOutr .rectInner .loginbox p {
 }
   
 section .rectOutr .rectInner .loginbox input {
-    width: 328px;
-    margin-bottom: 15px;
+    width: 20.5rem;
+    margin-bottom: 1rem;
 }
   
 section .rectOutr .rectInner .loginbox input[type="text"],
   input[type="password"] {
-    border: 2px solid;
+    border: 0.12rem solid;
     border-radius: 0.3rem;
-    padding: 5px;
+    padding: 0.3rem;
     background: transparent;
     outline: none;
-    height: 28px;
-    width: 300px;
+    height: 1.75rem;
+    width: 18.75rem;
     color: var(--primary);
     opacity:64%;
-    font-size: 16px;
+    font-size: 1rem;
 }
   
 section .rectOutr .rectInner .loginbox input[type="submit"] {
     border: none;
     border-color: var(--primary);
     outline: var(--primary);
-    height: 30px;
+    height: 1.9rem;
     color: var(--dark);
-    font-size: 18px;
-    border-radius: 20px;
+    font-size: 1.12rem;
+    border-radius: 1.25rem;
     cursor: pointer;
-}
-section .rectOutr .rectInner .loginbox .extra a{
-      font-size: 0.7rem;
-      font-weight: 600;
-      justify-content: center;
-      display: flex;
-      color: #000;
-      text-decoration: none;
-      font-family: Montserrat;
-
 }
 section .rectOutr .rectInner .quicklink h1 {
         overflow: hidden;
         text-align: center;
         font-weight: 200;
-        font-size: 12px;
+        font-size: 0.75rem;;
         font-family: Montserrat;
         margin-top: 3rem;
 }
@@ -377,7 +367,7 @@ section .rectOutr .rectInner .quicklink h1:after {
         background-color: #000;
         content: "";
         display: inline-block;
-        height: 2.5px;
+        height: 0.16rem;
         position: relative;
         vertical-align: middle;
         width: 35%;
@@ -396,27 +386,54 @@ section .rectOutr .rectInner .link{
     border: none;
     justify-content: center;
     padding-left: 2rem;
-    height: 30px;
-    border-radius: 20px;
+    height: 1.9rem;
+    border-radius: 1.25rem;
     cursor: pointer;
-
 } 
 
 
 /* GET-STARTED PAGE  */
 /* THIS IS THE CSS FOR GET STARTED PAGE  */
+
+
+section.mainGet-1 h1{
+    color: red;
+    text-align: center;
+    padding: 2rem;
+    font-size: 4rem;
+    font-weight: 100;
+}
 .card{
+    background-color: var(--primary);
+    padding: 2rem;
+    margin: 4rem auto;
+    width: 80%;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(1,8fr);
 }
+.cardin{
+    padding-top: 4rem;
+}
 .card .card-wrap{
-    padding-bottom: 2rem;
+    padding: 1.1rem;
+}
+.card .card-wrap h2{
+    color: var(--pure);
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 .card .card-wrap input{
-    width: 655px;
-    height:32px;
-    border-radius: 10px;
+    width: 40rem;
+    padding: 0.2rem;
+    height: 3rem;
+    background-color: var(--pure);
+    opacity: 64%;
+    color: var(--primary);
+    font-size: 1.2rem;
+    border-radius: 0.4rem;
 }
+
 /* section .rect-upload{
     color: var(--primary);
 } */
