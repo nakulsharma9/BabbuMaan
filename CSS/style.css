@@ -415,6 +415,10 @@ section.mainGet-1 h1{
     display: grid;
     grid-template-columns: repeat(1,8fr);
 }
+.card h3{
+    color: var(--pure);
+    text-align: center;
+}
 .cardin{
     padding-top: 4rem;
 }
