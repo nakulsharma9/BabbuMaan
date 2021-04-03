@@ -490,6 +490,7 @@ section.mainGet-1 h1{
 }
 
 /* GET STARTED PAGE SECOND */
+/* HERE GOES THE CODE FOR SECOND PAGE OF GETSTARTED */
 
 .tags{
     background-color: var(--primary);
@@ -499,7 +500,7 @@ section.mainGet-1 h1{
     padding: 0 3rem;
 }
 .tags .tag-warp h2{
-    color: red;
+    color: var(--pure);
     padding: 2rem 4rem;
 }
 .tags .tag-warp{
