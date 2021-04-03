@@ -407,7 +407,8 @@ section.mainGet-1 h1{
     padding: 2rem;
     font-family: Poppins;
     font-size: 4rem;
-    font-weight: 200;
+    font-weight: 400;
+    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.45);
 }
 .rect-upload{
     width: 690px;
