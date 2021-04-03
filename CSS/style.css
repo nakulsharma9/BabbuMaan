@@ -9,6 +9,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 *{
     padding: 0;
@@ -397,11 +398,12 @@ section .rectOutr .rectInner .link{
 
 
 section.mainGet-1 h1{
-    color: red;
+    color: var(--primary);
     text-align: center;
     padding: 2rem;
+    font-family: Poppins;
     font-size: 4rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 .card{
     background-color: var(--primary);
@@ -427,7 +429,6 @@ section.mainGet-1 h1{
     width: 40rem;
     padding: 0.2rem;
     height: 3rem;
-    /* background-color: var(--pure); */
     opacity: 64%;
     color: var(--primary);
     font-size: 1.2rem;
@@ -475,6 +476,9 @@ section.mainGet-1 h1{
     border-radius: 0.3rem;
     opacity: 64%;
 } */
+
+/* FOOTER  */
+/* THIS IS CODE FOR FOOTER,,,,,, */
 .footer-sec{
     background-color: #000;
 }
