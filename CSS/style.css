@@ -412,19 +412,28 @@ section.mainGet-1 h1{
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
 }
 .rect-upload{
-    width: 50rem;
+    width: 44rem;
     height: 25rem;
     margin: 0 auto;
     background-color:var(--primary);
     border-radius: 31px;
 }
+.mainGet-1 .rect-upload h3{
+    font-family: Raleway;
+    font-size: 21px; /******************* to Rem**************/
+    font-weight: 100;
+    color: var(--pure);
+}
+.mainGet-1 .rect-upload h3 span{
+    color: #FFF48F;
+    font-weight: 400;
+}
 .card{
     background-color: var(--primary);
-    padding: 2rem;
-    margin: 4rem auto;
+    margin: 2rem auto;
     border-radius: 50px;
     width: 80%;
-    padding: 2rem;
+    padding: 0 3rem;
     display: grid;
     grid-template-columns: repeat(1,8fr);
 }
@@ -435,11 +444,11 @@ section.mainGet-1 h1{
     font-family: Raleway;
     font-weight: 400;
     text-transform: capitalize;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
 }
 .cardin{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }
 .card .card-wrap{
     padding: 1.1rem;
@@ -448,6 +457,8 @@ section.mainGet-1 h1{
     color: var(--pure);
     font-size: 1.2rem;
     font-weight: 400;
+}.card .card-wrap h2{
+    padding-bottom: 0.3rem;
 }
 .card .card-wrap input{
     width: 40rem;
