@@ -446,15 +446,6 @@ section.mainGet-1 h1{
     display:inline-block;
     padding: 120px 300px;
 }
-.card{
-    background-color: var(--primary);
-    margin: 2rem auto;
-    border-radius: 50px;
-    width: 80%;
-    padding: 0 3rem;
-    display: grid;
-    grid-template-columns: repeat(1,8fr);
-}
 .mainGet-1 h3{
     color: var(--primary);
     text-align: center;
@@ -465,33 +456,35 @@ section.mainGet-1 h1{
     padding-top: 2.5rem;
     padding-bottom: 1rem;
 }
-.cardin{
-    padding-top: 2rem;
+.form{
+    display: block;
+    background-color: var(--primary);
+    margin: 2rem auto;
+    border-radius: 50px;
+    width: 80%;
+    padding: 6rem 2rem;
+    grid-template-columns: repeat(1,8fr);
 }
-
-.card .card-wrap{
-    padding: 1.1rem;
-}
-.card .card-wrap h2{
+.form label{
+    font-size: 1.5rem;
     color: var(--pure);
-    font-size: 1.2rem;
+}
+.form input{
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    opacity: 64%; 
+    outline: none;
+    padding: 0.1rem;
+    font-size: 1.5rem;
+    font-family: Montserrat;
     font-weight: 400;
-    padding-bottom: 0.3rem;
-}
-.card .card-wrap h2 span{
-    color: red;
-    opacity: 95%;
-    font-size: 1.9rem;
-}
-.card .card-wrap input{
-    width: 40rem;
-    padding: 0.2rem;
+    color: var(--dark);
+    width: 70%;
     height: 3rem;
-    opacity: 64%;
-    color: var(--primary);
-    font-size: 1.2rem;
-    border-radius: 0.4rem;
-    border: none;
+}
+.form a{
+    float:right;
+    clear:right;
 }
 
 /* GET STARTED PAGE SECOND */
@@ -504,9 +497,11 @@ section.mainGet-1 h1{
     width: 74%;
     padding: 0 3rem;
 }
-.tags .tag-warp h2{
+.tags .tag-warp label{
     color: var(--pure);
-    padding: 2rem 4rem;
+    font-size: 2rem;
+    /* padding: 2rem 4rem; */
+    margin-bottom: 6rem;
 }
 .tags .tag-warp{
     background-color: var(--primary);
@@ -517,12 +512,14 @@ section.mainGet-1 h1{
 }
 .tag-warp input{
     width: 702px;
-    padding-top: 2rem;
+    padding-top: 6rem;
     height: 450px;
     color: var(--primary);
-    font-size: 1.2rem;
+    font-size: 3rem;
     border: none;
-    border-radius: 35px;
+    opacity: 64%;
+    outline:none;
+    border-radius: 20px;
 }
 .tags a{
 margin: 1rem 50rem;
@@ -530,6 +527,8 @@ display: block;
 }
 
 /* GET STARTED PAGE 3 */
+
+
 .GetMain h1{
     color: var(--primary);
     border: var(--dark);
