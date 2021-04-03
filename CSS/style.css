@@ -5,6 +5,14 @@
     --pure:#FFFFFF;
     --ternary:#898989;
     --light:#F2F2F2;
+    --yellow:#fff48f;
+    --redd:#fa5959;
+    --orangey:#fed253;
+    --parrot:#8ccf4d;
+    --granite:#a1a1a1;
+    --pinkey:#ffb9b9;
+    --obsedian:#2f2e41;
+    --rosey:#ff6584;
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -397,7 +405,7 @@ section .rectOutr .rectInner .link{
 /* THIS IS THE CSS FOR GET STARTED PAGE  */
 
 section.mainGet-1{
-    background-image: url('/images/back-upload.png');
+    background-image: url(/ProjectCaseTEmp/images/back-upload.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -456,10 +464,6 @@ section.mainGet-1 h1{
     padding-top: 2rem;
 }
 
-/* .card-wrap input:after { 
-    content:" *";
-    color: red; 
-} */
 .card .card-wrap{
     padding: 1.1rem;
 }
@@ -485,8 +489,45 @@ section.mainGet-1 h1{
     border: none;
 }
 
+/* GET STARTED PAGE SECOND */
+
+.tags{
+    background-color: var(--primary);
+    margin: 2rem auto;
+    border-radius: 50px;
+    width: 74%;
+    padding: 0 3rem;
+}
+.tags .tag-warp h2{
+    color: red;
+    padding: 2rem 4rem;
+}
+.tags .tag-warp{
+    background-color: var(--primary);
+    margin: 2rem auto;
+    border-radius: 50px;
+    width: 80%;
+    padding: 0 3rem;
+}
+.tag-warp input{
+    width: 702px;
+    padding-top: 2rem;
+    height: 450px;
+    color: var(--primary);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 35px;
+}
+.tags a{
+margin: 1rem 50rem;
+display: block;
+}
+
+
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
+
+
 .footer-sec{
     background-color: #000;
 }
