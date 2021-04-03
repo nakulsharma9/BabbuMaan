@@ -427,11 +427,12 @@ section.mainGet-1 h1{
     width: 40rem;
     padding: 0.2rem;
     height: 3rem;
-    background-color: var(--pure);
+    /* background-color: var(--pure); */
     opacity: 64%;
     color: var(--primary);
     font-size: 1.2rem;
     border-radius: 0.4rem;
+    border: none;
 }
 
 /* section .rect-upload{
