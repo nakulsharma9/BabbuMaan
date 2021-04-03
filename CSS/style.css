@@ -431,10 +431,15 @@ section.mainGet-1 h1{
 .mainGet-1 h3{
     color: var(--primary);
     text-align: center;
+<<<<<<< HEAD
     font-size: 1.4rem;
     font-family: Raleway;
     text-transform: capitalize;
     font-weight: 400;
+=======
+    font-size: 1.31rem;
+    font-weight: 100;
+>>>>>>> 314348c307d1fbd74ec7bba8f93ba4a9e74d957b
 }
 .cardin{
     padding-top: 4rem;
