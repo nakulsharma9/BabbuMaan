@@ -399,6 +399,7 @@ section .rectOutr .rectInner .link{
 section.mainGet-1{
     background-image: url('/images/back-upload.png');
     background-repeat: no-repeat;
+    background-position: center;
 }
 section.mainGet-1 h1{
     color: var(--primary);
@@ -427,9 +428,13 @@ section.mainGet-1 h1{
     display: grid;
     grid-template-columns: repeat(1,8fr);
 }
-.card h3{
-    color: var(--pure);
+.mainGet-1 h3{
+    color: var(--primary);
     text-align: center;
+    font-size: 1.4rem;
+    font-family: Raleway;
+    text-transform: capitalize;
+    font-weight: 400;
 }
 .cardin{
     padding-top: 4rem;
