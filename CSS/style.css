@@ -492,38 +492,38 @@ section.mainGet-1 h1{
 
 .tags{
     background-color: var(--primary);
-    margin: 2rem auto;
+    margin: 1rem auto;
     border-radius: 50px;
     width: 74%;
-    padding: 0 3rem;
 }
 .tags .tag-warp label{
     color: var(--pure);
     font-size: 2rem;
-    /* padding: 2rem 4rem; */
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
 }
 .tags .tag-warp{
     background-color: var(--primary);
-    margin: 2rem auto;
+    margin: auto auto;
     border-radius: 50px;
     width: 80%;
-    padding: 0 3rem;
+    padding: 3rem 3rem;
+    display: block;
 }
 .tag-warp input{
-    width: 702px;
-    padding-top: 6rem;
-    height: 450px;
+    width: 730px;
+    height: 500px;
     color: var(--primary);
     font-size: 3rem;
     border: none;
     opacity: 64%;
     outline:none;
     border-radius: 20px;
+    margin: auto;
 }
-.tags a{
-margin: 1rem 50rem;
-display: block;
+.tags a img{
+    position: absolute;
+    right: 31rem;
+    top:107%;
 }
 
 /* GET STARTED PAGE 3 */
