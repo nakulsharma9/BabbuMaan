@@ -540,11 +540,11 @@ display: block;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
 }
 .GetMain .inpage img{
-    position: relative  ;
-    margin-left: 4rem;
+    position: absolute;
+    margin-left: 1rem;
     width: 1087px;
     height: 763px;
-    /* background-image: url(/images/back-upload.png); */
+    background-image: url('/images/back-upload.png');
 }
 .inpagetext{
         position: absolute;
@@ -587,8 +587,10 @@ footer{
     display: flex;
     flex-wrap: wrap;
 }
-footer .footerCol1 h4{
+footer .footerCol1 a{
     font-size: 2rem;
+    color: var(--pure);
+    text-decoration: none;
     padding-bottom: 1rem;
 }
 footer .footerCol1{
@@ -596,6 +598,12 @@ footer .footerCol1{
     display: inline-block;
     vertical-align: top;
     padding: 0 15px;
+}
+footer .footerCol1 h2{
+    /* vertical-align: bottom; */
+    margin-top: 5.8rem;
+    font-weight: 200;
+    font-size: 17px;
 }
 
 footer .footersocial a{
