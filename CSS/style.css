@@ -528,7 +528,9 @@ section.mainGet-1 h1{
 
 /* GET STARTED PAGE 3 */
 
-
+.GetMain{
+    background-image: url('/images/back-upload.png');
+}
 .GetMain h1{
     color: var(--primary);
     border: var(--dark);
@@ -538,28 +540,35 @@ section.mainGet-1 h1{
     font-size: 4rem;
     font-weight: 300;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
+    position: unset;
+}
+.getS3{
+    flex-direction: column;
 }
 .GetMain .inpage img{
     position: absolute;
     margin-left: 1rem;
     width: 1087px;
     height: 763px;
-    background-image: url('/images/back-upload.png');
 }
-.inpagetext{
-        position: absolute;
-        display: block;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 69px;
-        color: var(--primary);
-        font-family: Poppins;
-        font-weight: 400;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-        padding-bottom: 3rem;
+.inpagebtn{
+    /* position: unset; */
+    /* display: block; */
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    font-size: 69px;
+    color: var(--primary);
+    font-family: Poppins;
+    font-weight: 400;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+    width: 20rem;
+    /* padding-bottom: 3rem; */
 }
-.inpagetext .inpagebtn{
+.inpagebtn a{
+    padding: 4rem;
+}
+/* .inpagetext .inpagebtn{
     align-items: center;
     position: absolute;
     margin-top: 4rem;
@@ -568,7 +577,7 @@ section.mainGet-1 h1{
 .inpagetext .inpagebtn a{
     size: 3rem  ;
     margin-right: 2.5rem;
-}
+} */
 
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
