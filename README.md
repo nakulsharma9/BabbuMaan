@@ -1,1 +1,1 @@
-# This repo is a temp repo for the orginial ProjectCase.io
+# This repo is a Development Stage repo for the orginial ProjectCase.io
