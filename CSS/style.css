@@ -464,6 +464,7 @@ section.mainGet-1 h1{
     width: 80%;
     padding: 6rem 2rem;
     grid-template-columns: repeat(1,8fr);
+    word-break: break-word;
 }
 .form label{
     font-size: 1.5rem;
@@ -552,11 +553,6 @@ section.mainGet-1 h1{
     height: 763px;
 }
 .inpagebtn{
-    /* position: unset; */
-    /* display: block; */
-    /* top: 50%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
     font-size: 69px;
     color: var(--primary);
     font-family: Poppins;
@@ -589,7 +585,7 @@ footer{
     height: 250px;
     align-items: center;
     color: var(--pure);
-    background-color: #000;
+    background-color: var(--dark);
     display: block;
 }
 .row{
