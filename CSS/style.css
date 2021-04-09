@@ -575,6 +575,74 @@ section.mainGet-1 h1{
     margin-right: 2.5rem;
 } */
 
+
+/* VIEW PROJECTS PAGE  */
+/* THE CSS FOR THE VIEW PROJECT PAGE  */
+.some{
+    background-color: var(--primary);
+}
+.some .search{
+    text-align: center;
+    /* margin-top: 5rem; */
+}
+.some .search input{
+    height: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    opacity: 64%;
+    margin-top: 0.5rem;
+    padding: 0.2rem;
+}
+.some .icon{
+    text-align: center;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-auto-rows: auto;
+    gap: 20px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.cards * {
+    box-sizing: border-box;
+}
+
+.card__image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+    border-top: 2px solid #333333;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card__content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+    border-right: 2px solid #333333;
+    border-left: 2px solid #333333;
+}
+
+.card__content > p:first-of-type {
+    margin-top: 0;
+}
+
+.card__content > p:last-of-type {
+    margin-bottom: 0;
+}
+
+
+
+
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
 
