@@ -94,6 +94,12 @@ header nav .right a{
 .hero .left{
     margin-top:2.5rem;
 } 
+
+img{
+    pointer-events: none; 
+    user-select: none;  
+}
+
 section.profileSection{
     display: flex;
     flex-direction: row;
@@ -601,7 +607,7 @@ section.mainGet-1 h1{
 .cardWrapper {
     /* display: grid; */
     /* grid-template-columns: repeat(auto-fill) */
-    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+    grid-template-columns: repeat(auto-fill);
     grid-gap: 50px 100px;
     grid-auto-rows: auto;
     font-family: sans-serif;
