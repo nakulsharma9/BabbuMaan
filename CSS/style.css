@@ -30,7 +30,8 @@ body{
 }
 /* CSS FOR THE NAV BAR  */
 header nav{
-    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
 }
 header nav .branding{
     font-size: 1.5rem;
@@ -216,16 +217,16 @@ section .note{
      margin: 4rem auto;
      padding: 5rem auto;
  }
- section .connect .avv{
+ section .connect .connectandcontri{
      align-items: center;
  }
- section .avv h3{
+ section .connectandcontri h3{
      color: var(--primary);
      margin: 2.5rem auto;
      text-align: center;
      font-size: 4.1rem;
  }
- .avv img{
+ .connectandcontri img{
      display: flex;
      margin-top: 8rem;
      margin-bottom: 10rem;
