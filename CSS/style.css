@@ -608,10 +608,10 @@ section.mainGet-1 h1{
 
 .cardview{
     display: inline-block;
-    width: 30%;   
+    width: 18%;   
     text-align: center;
     border: var(--primary) 2px solid;
-    margin: 5px 4px;
+    margin: 5px auto;
 }
 
 .cardview img{
@@ -621,9 +621,6 @@ section.mainGet-1 h1{
     text-align: center;
     /* margin: 2px auto; */
 }
-
-
-
 
 
 
