@@ -333,7 +333,9 @@ section .rectOutr .rectInner h1 {
     text-align: center;
     font-size: 1.3rem;
 }
-  
+section .rectOutr .rectInner .loginbox{
+    background: none;
+}
 section .rectOutr .rectInner .loginbox p {
     margin: 0;
     padding: 0;
@@ -341,7 +343,7 @@ section .rectOutr .rectInner .loginbox p {
 }
   
 section .rectOutr .rectInner .loginbox input {
-    width: 20.5rem;
+    /*width: 20.5rem;*/
     margin-bottom: 1rem;
 }
   
@@ -363,7 +365,8 @@ section .rectOutr .rectInner .loginbox input[type="submit"] {
     border: none;
     border-color: var(--primary);
     outline: var(--primary);
-    height: 1.9rem;
+    height: 2.5rem;
+    width:18rem;
     color: var(--dark);
     font-size: 1.12rem;
     border-radius: 1.25rem;
