@@ -604,35 +604,27 @@ section.mainGet-1 h1{
     text-align: center;
 }
 
-.cards{
-    width: 30%;
+/* CARDS */
+
+.cardview{
+    display: inline-block;
+    /* grid-template-rows: repeat(5, 1fr); */
+    width: 20%;   
     text-align: center;
-    
+    border: var(--primary) 2px solid;
+    margin: 5px 4px;
 }
-.cards .cardimage img{
-    width: 50%;
-    /* position: absolute; */
-    display: block;
-}
-/* .cards .cardcontent{
-    text-align: center;
-} */
-.cards .cardcontent {
-    /* position: absolute; */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
+
+.cardview img{
     width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
 }
-  
-.cards:hover .cardcontent {
-    opacity: 1;
+.cardview .cardcontent{
+    text-align: center;
+    /* margin: 2px auto; */
 }
+
+
+
 
 
 
