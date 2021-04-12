@@ -227,10 +227,7 @@ section .note{
  }
  .avv img{
      display: flex;
-     margin-top: 8rem;
-     margin-bottom: 10rem;
-     margin-left: auto;
-     margin-right: auto;
+     margin: 8rem auto 10rem;
  }
  section .container .msg{
      margin: 3rem auto;
@@ -293,8 +290,7 @@ section .rectOutr{
     background-color: var(--primary);
     position: relative;
     width: fit-width;
-    margin: 2rem auto;
-    margin-top:9rem;
+    margin: 9rem auto 2rem;
 }
 section .rectOutr .rectInner{
     height: 36rem;
