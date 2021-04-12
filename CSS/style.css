@@ -34,7 +34,7 @@ header nav{
 }
 header nav .branding{
     font-size: 1.5rem;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 600;
     /* text-decoration: none; */
 }
@@ -44,7 +44,7 @@ header nav .branding a{
 }
 header nav .right a{
     color: var(--dark);
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
     font-weight: 600;
     margin-right: 2rem;
@@ -57,7 +57,7 @@ header nav .right a{
 
 .hero .right h1{
     color: var(--primary);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
 }
 .hero{
     margin-top: 4rem;
@@ -71,12 +71,12 @@ header nav .right a{
     margin-right: 0.5rem;
 }
 .hero .right h5{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;  
     font-size: 1.6rem;
 }
 .hero .right h1{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;  
     font-size: 3.3rem;
     margin:1rem auto;
@@ -132,7 +132,7 @@ section.profileSection .left h3{
     margin: 3.5rem 3rem;
 }
 .profileSection .left h3{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: 100;
 }
@@ -141,7 +141,7 @@ section.profileSection h4{
     flex-direction: column;
     color: var(--primary);
     font-size: 1.5rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     word-spacing: 0.6rem;
     text-align: center;
@@ -161,7 +161,7 @@ section.profileSection h4::after{
     color: var(--pure);
     text-align: center;
     font-size: 3.5rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin-bottom: 5rem;
 }
@@ -194,7 +194,7 @@ section.inspire {
 
 section .note{
      color: var(--primary);
-     font-family:Montserrat;
+     font-family:'Montserrat', sans-serif;
      font-size: 1rem;
      font-weight: 400;
      position: relative;
@@ -205,7 +205,7 @@ section .note{
  section .section-heading{
      font-size: 2.5rem;
      font-weight: 100;
-     font-family: Poppins;
+     font-family: 'Poppins', sans-serif;
      color: var(--pure);
      text-align: center;
  }
@@ -252,7 +252,7 @@ section.appreciate{
  section.appreciate h4{
     font-size: 2.5rem;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     word-spacing: 63px;
     color: #B9B7FF;
@@ -262,7 +262,7 @@ section.appreciate{
  section.appreciate h1{
     font-size: 3.75rem;
     font-weight: 400;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     position: absolute;
     justify-content: center;
     word-spacing: 13px;
@@ -312,7 +312,7 @@ section .rectOutr .rectInner .login{
     display: flex;
 }
 section .rectOutr .rectInner h2{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color:var(--primary);
     font-weight: 400;
     font-size: 2.6rem;
@@ -378,7 +378,7 @@ section .rectOutr .rectInner .quicklink h1 {
         text-align: center;
         font-weight: 200;
         font-size: 0.75rem;;
-        font-family: Montserrat;
+        font-family: 'Montserrat', sans-serif;
         margin-top: 3rem;
 }
       
@@ -425,7 +425,7 @@ section.mainGet-1 h1{
     border: var(--dark);
     text-align: center;
     padding: 2rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 300;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
@@ -443,7 +443,7 @@ section.mainGet-1 h1{
   justify-content: center;
 }
 .mainGet-1 .rect-upload h3{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-size: 21px; /******************* to Rem**************/
     font-weight: 100;
     color: var(--pure);
@@ -461,7 +461,7 @@ section.mainGet-1 h1{
     color: var(--primary);
     text-align: center;
     font-size: 1.31rem;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     text-transform: capitalize;
     padding-top: 2.5rem;
@@ -488,7 +488,7 @@ section.mainGet-1 h1{
     outline: none;
     padding: 0.1rem;
     font-size: 1.5rem;
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: var(--dark);
     width: 70%;
@@ -548,7 +548,7 @@ section.mainGet-1 h1{
     border: var(--dark);
     text-align: center;
     padding: 2rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 4rem;
     font-weight: 300;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.45);
@@ -566,7 +566,7 @@ section.mainGet-1 h1{
 .inpagebtn{
     font-size: 69px;
     color: var(--primary);
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
     width: 20rem;
@@ -695,12 +695,12 @@ footer .footersocial a{
 
 .about-section h1{
     margin-top: 3rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 200;
     font-size: 3.3rem;
 }
 section.aboutMain .AboutText{
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 3.313rem;
     margin-top: 5.5rem;
     margin-bottom: 0.5rem;
@@ -718,7 +718,7 @@ section.aboutMain .AboutText{
 .rectOutr_about h6{
     font-size: 5rem;
     word-spacing: 0.1rem;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     padding:4.5rem 0;
     line-height: 7rem;
@@ -731,11 +731,11 @@ section.aboutMain .AboutText{
     margin-top:1.5rem;
 }
 .aboutMain h4{
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     text-align: right;
 }
 .aboutMain h2{
-    font-family:Montserrat;
+    font-family:'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     text-align: center;
