@@ -608,8 +608,7 @@ section.mainGet-1 h1{
 
 .cardview{
     display: inline-block;
-    /* grid-template-rows: repeat(5, 1fr); */
-    width: 20%;   
+    width: 30%;   
     text-align: center;
     border: var(--primary) 2px solid;
     margin: 5px 4px;
