@@ -434,8 +434,13 @@ section.mainGet-1 h1{
     width: 44rem;
     height: 25rem;
     margin: 0 auto;
+    /*align-content: center;*/
     background-color:var(--primary);
     border-radius: 31px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
 }
 .mainGet-1 .rect-upload h3{
     font-family: Raleway;
@@ -448,9 +453,9 @@ section.mainGet-1 h1{
     font-weight: 400;
 }
 .mainGet-1 .rect-upload img{
-    width: 10%;
-    display:inline-block;
-    padding: 120px 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .mainGet-1 h3{
     color: var(--primary);
