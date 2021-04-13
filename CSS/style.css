@@ -625,12 +625,10 @@ section.mainGet-1 h1{
 .cardview img{
     width: 100%;
     overflow: hidden;
-    
 }
 .cardview .cardcontent{
     text-align: center;
 }
-
 
 
 
@@ -648,7 +646,7 @@ footer{
     background-color: var(--dark);
     display: block;
 }
-.row{
+.footerrow{
     display: flex;
     flex-wrap: wrap;
 }
