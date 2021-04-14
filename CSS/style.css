@@ -612,7 +612,8 @@ section.mainGet-1 h1{
     height: 50px;
     border-radius: 50%;
     border: var(--primary) 1px dashed;
-  }
+}
+
 
 /* CARDS */
 
@@ -622,7 +623,7 @@ section.mainGet-1 h1{
     
 }
 .carddiv{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(4, 1fr);    
 }
 
@@ -657,22 +658,26 @@ footer{
     background-color: var(--dark);
     display: block;
 }
+
 .footerrow{
     display: flex;
     flex-wrap: wrap;
 }
+
 footer .footerCol1 a{
     font-size: 2rem;
     color: var(--pure);
     text-decoration: none;
     padding-bottom: 1rem;
 }
+
 footer .footerCol1{
     width: 24.6%;
     display: inline-block;
     vertical-align: top;
     padding: 0 15px;
 }
+
 footer .footerCol1 h2{
     /* vertical-align: bottom; */
     margin-top: 5.8rem;
