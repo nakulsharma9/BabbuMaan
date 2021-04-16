@@ -3,7 +3,7 @@
     --primary:#4A47A3;
     --dark:#161616;
     --pure:#FFFFFF;
-    --ternary:#898989;
+    --ternary:#707070;
     --light:#F2F2F2;
     --yellow:#fff48f;
     --redd:#fa5959;
@@ -596,7 +596,7 @@ section.mainGet-1 h1{
     height: 2rem;
     outline: none;
     border: none;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     opacity: 64%;
     margin-top: 0.5rem;
     padding: 0.2rem;
@@ -642,7 +642,77 @@ section.mainGet-1 h1{
     text-align: center;
 }
 
+/* PROFILE */
+/* THE CODE IS FOR PROFILE SECTION */
 
+.banner img{
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+}
+.profilebar{
+    box-shadow: 5px 10px #888888;
+    border: 2px solid var(--primary);
+    background-color: var(--yellow);
+    width: 360px;
+    margin-left: 2rem;    
+}
+.profilebar .avatarbox img{
+    width: 200px;
+    padding: 2rem; 
+    /* clip-path: ellipse(155px 140px at 15% 10%); */
+    /* position: relative; */
+    color: var(--primary);
+}
+.avatarbox p{
+    /* position: absolute; */
+    font-size: 1.5rem;
+    padding-left: 2rem;
+
+    /* text-align: center; */
+}
+
+.profilebar .profilelinks {
+    align-items: center;
+    line-height: 1.5rem;
+    padding-left: 40px;
+    /* color: var(--parrot); */
+    /* text-align: center; */
+}
+
+.profilelinks p a{
+    text-decoration: none;
+    color: var(--rosey);
+    /* margin: 2px; */
+
+}
+
+.profilelinks p img{
+   width: 20px;
+   height: 30px;
+}
+.profilelinks button{
+    background-color: var(--primary);
+    margin-bottom: 2rem;
+
+}
+.profilelinks button a{
+    color: var(--pure);
+    text-decoration: none;
+}
+.verticaline {
+    border-left: 3.8px solid var(--ternary);
+    border-radius: 0.2rem;
+    height: 500px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+.work{
+    margin: 149px 0 50px 50px;
+
+}
 
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
