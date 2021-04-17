@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -53,7 +56,7 @@
 
                 </div>
                 <div class="left">
-                    <img src="images/Hero_illustration.png" unselectable= "on" alt="">
+                    <img src="images/Hero_illustration.png" unselectable="on" alt="">
                 </div>
 
             </div>
@@ -103,34 +106,65 @@
     </section>
     <section class="appreciate">
         <div class="container">
-            <h4>Appreciate</h4>
-            <h1>Your Appreciation is the Booster !</h1>
-            <img src="images/booster.png" alt="">
-            <img class="booster-like" src="images/Like.png" alt="">
+            <div class="booster">
+                <h4>Appreciate</h4>
+                <h1>Your Appreciation is the Booster !</h1>
+                <img src="images/booster.svg" alt="">
+            </div>
         </div>
     </section>
-    <footer>
-        <div class="footer_class">
-		<div class="container">
+    <!-- Footer ------------------------------------------------------------------------------------------------------------------------------------------------>
+    <footer class="container-fluid  bg-black py-2">
+        <div class="container">
             <div class="row">
-                <div class="footerCol1">
-                    <h4><a href="">ProjectCase.io</a></h4>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet!</p>
-                    <p class="copyright">© this is a copyrighted text </p>
-                    <h2>V1.m-21</h2>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="logo-part">
+                                <h1>ProjectCase.io</h1>
+                                <p> © Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet!</p>
+                                <h5>V1.m-21</h5>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4">
+                            <h6> About Us ?</h6>
+                            <p>Its not much, But click the button below to know !.</p>
+                            <a href="about.html" class="btn-footer"> More Info !</a><br>
+                            <a href="#" class="btn-footer">Contact Us</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="footersocial">
-                    <h4>Follow Us</h4>
-                    <ul>
-                        <li><a href="">Social</a></li>
-                        <li><a href="">Lien</a></li>
-                        <li><a href="">collegamento</a></li>
-                        <li><a href="">Enlace</a></li>
-                    </ul>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 px-4">
+                            <h6> Help us</h6>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li> <a href="#"> Home</a> </li>
+                                        <li> <a href="#"> About</a> </li>
+                                        <li> <a href="#"> Team</a> </li>
+                                        <li> <a href="#"> Help</a> </li>
+                                        <li> <a href="#"> Contact</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-2 px-4">
+                                    <ul>
+                                        <li> <a href="#"> Terms</a> </li>
+                                        <li> <a href="#"> Policy</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <h6> Newsletter</h6>
+                            <a href="#" class="btn-footer">Subscribe !</a>
+                            <p>No commitments, unsubscribe anytime.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-		</div>
     </footer>
 </body>
 
