@@ -652,14 +652,18 @@ section.mainGet-1 h1{
 }
 .profilebar{
     box-shadow: 5px 10px #888888;
+    box-sizing: border-box;
+    /* border-radius: 2rem  ; */
     border: 2px solid var(--primary);
     background-color: var(--yellow);
     width: 360px;
+    text-align: center;
     margin-left: 2rem;    
 }
 .profilebar .avatarbox img{
     width: 200px;
-    padding: 2rem; 
+    padding: 2rem;
+    object-fit: cover; 
     /* clip-path: ellipse(155px 140px at 15% 10%); */
     /* position: relative; */
     color: var(--primary);
@@ -667,17 +671,24 @@ section.mainGet-1 h1{
 .avatarbox p{
     /* position: absolute; */
     font-size: 1.5rem;
-    padding-left: 2rem;
 
-    /* text-align: center; */
 }
 
-.profilebar .profilelinks {
-    align-items: center;
+.profilebar .profilelinks .githublink{
     line-height: 1.5rem;
-    padding-left: 40px;
-    /* color: var(--parrot); */
-    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.profilebar .profilelinks .personalink{
+    /* align-items: center; */
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: 2rem; */
 }
 
 .profilelinks p a{
