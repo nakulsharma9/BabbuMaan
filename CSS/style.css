@@ -296,7 +296,7 @@ section .rectOutr .rectInner{
     height: 36rem;
     border-radius: 0.5rem;
     background-color: var(--pure);
-    position: relative;
+    position: absolute;
     left: 35%;
     top: 3%;
     width: 32.75rem;    
@@ -315,8 +315,9 @@ section .rectOutr .rectInner h2{
 }
 
 section .rectOutr .rectInner .loginbox {
-    margin-top: 3.75rem;
+    margin: 3rem 0;
     height: 18.75rem;
+    flex-direction: column;
     background: var(--pure);
     color: var(--primary);
     top: 50%;
@@ -326,7 +327,32 @@ section .rectOutr .rectInner .loginbox {
     box-sizing: border-box;
     padding: 70px 1.9rem;
 }
-  
+
+section .rectOutr .rectInner .loginbox .button_signup{
+    float: right;
+    text-align: center;
+    width:158px;
+    padding: 12px 23px;
+    height:17px;
+    border-radius: 8px;
+    border: 2px solid var(--primary);
+    font-family: Montserrat;
+    cursor: pointer;
+  }
+  section .rectOutr .rectInner .loginbox .button_signup a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+  }
+  section .rectOutr .rectInner .loginbox .button_signup:hover {
+      border: none;
+      background-color: var(--primary);
+  }
 section .rectOutr .rectInner h1 {
     margin: 0;
     padding: 0 0 1.25rem;
@@ -359,18 +385,6 @@ section .rectOutr .rectInner .loginbox input[type="text"],
     color: var(--primary);
     opacity:64%;
     font-size: 1rem;
-}
-  
-section .rectOutr .rectInner .loginbox input[type="submit"] {
-    border: none;
-    border-color: var(--primary);
-    outline: var(--primary);
-    height: 2.5rem;
-    width:18rem;
-    color: var(--dark);
-    font-size: 1.12rem;
-    border-radius: 1.25rem;
-    cursor: pointer;
 }
 section .rectOutr .rectInner .quicklink h1 {
         overflow: hidden;
@@ -409,7 +423,20 @@ section .rectOutr .rectInner .link{
     border-radius: 1.25rem;
     cursor: pointer;
 } 
-
+.extra{
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.extra a{
+    padding: 0.3rem;
+    text-decoration: none;
+}
+.extra a:visited{
+   color: var(--primary);
+}
+.extra a:hover{
+    color:var(--rosey);
+}
 
 /* GET-STARTED PAGE  */
 /* THIS IS THE CSS FOR GET STARTED PAGE  */
