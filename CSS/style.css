@@ -672,25 +672,23 @@ section.mainGet-1 h1{
 /* THE CODE IS FOR PROFILE SECTION */
 
 .banner img{
-    width: 100%;
-    height: fit-content;
-    z-index: 1;
+    /* width: 100%; */
+    /* height: fit-content; */
+    /* z-index: 1; */
 }
 .profilebar{
-    box-shadow: 5px 10px #888888;
     box-sizing: border-box;
-    /* border-radius: 2rem  ; */
     border: 2px solid var(--primary);
-    background-color: var(--yellow);
-    width: 360px;
+    background-color: var(--primary);
+    width: 226px;
+    height: 281px;
     text-align: center;
-    margin-left: 2rem;    
+    /* margin-left: 2rem;     */
 }
 .profilebar .avatarbox img{
-    width: 200px;
-    padding: 2rem;
-    object-fit: cover; 
-    /* clip-path: ellipse(155px 140px at 15% 10%); */
+    /* padding: 2rem; */
+    width: 226px;
+    /* clip-path: polygon(0% 0%, 93% 0, 84% 43%, 46% 40%, 0 70%);  */
     /* position: relative; */
     color: var(--primary);
 }
