@@ -120,7 +120,6 @@ section.profileSection .left h3{
     font-size: 3.3rem;
     color: var(--dark);
     font-weight: 600;
-
     text-align: left;
 }
 .profileSection  .left h2{
@@ -671,83 +670,81 @@ section.mainGet-1 h1{
 /* PROFILE */
 /* THE CODE IS FOR PROFILE SECTION */
 
-.banner img{
-    /* width: 100%; */
-    /* height: fit-content; */
-    /* z-index: 1; */
-}
+/* .banner img{
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+} */
+
 .profilebar{
-    box-sizing: border-box;
-    border: 2px solid var(--primary);
-    background-color: var(--primary);
-    width: 226px;
-    height: 281px;
     text-align: center;
-    /* margin-left: 2rem;     */
 }
-.profilebar .avatarbox img{
-    /* padding: 2rem; */
+.profilebar .profileimage img{
     width: 226px;
     /* clip-path: polygon(0% 0%, 93% 0, 84% 43%, 46% 40%, 0 70%);  */
     /* position: relative; */
     color: var(--primary);
 }
-.avatarbox p{
+.profileimage p{
     /* position: absolute; */
     font-size: 1.5rem;
-
+    margin-bottom: 1rem;    
 }
-
-.profilebar .profilelinks .githublink{
-    line-height: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.profilebar .profilelinks .personalink{
+.profileimage{
+    margin-bottom: 2rem;
     /* align-items: center; */
+}
+
+/* .profilebar .profilelinks .githublink{
     line-height: 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* word-spacing: 2rem; */
-}
 
-.profilelinks p a{
+} */
+
+/* .profilebar .profilelinks .personalink{
+    align-items: center;
+    line-height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 2rem;
+} */
+ 
+.profilelinks p{
+    margin-top: 2rem    ;
     text-decoration: none;
     color: var(--rosey);
-    /* margin: 2px; */
+    margin: 2px;
 
-}
+} 
 
-.profilelinks p img{
+/* .profilelinks p img{
    width: 20px;
    height: 30px;
-}
-.profilelinks button{
+} */
+/* .profilelinks button{
     background-color: var(--primary);
     margin-bottom: 2rem;
 
-}
-.profilelinks button a{
+} */
+/* .profilelinks button a{
     color: var(--pure);
     text-decoration: none;
-}
+} */
 .verticaline {
-    border-left: 3.8px solid var(--ternary);
-    border-radius: 0.2rem;
-    height: 500px;
-    position: absolute;
-    left: 40%;
-    top: 40%;
+    background-color: var(--ternary);
+    width: 0.5rem;
+    height: 30rem;
+    border-radius: 4px;
+    margin-right: 15rem;
+    margin-left: 3rem;
 }
-
-.work{
+/* .work{
     margin: 149px 0 50px 50px;
 
-}
+} */
 
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
