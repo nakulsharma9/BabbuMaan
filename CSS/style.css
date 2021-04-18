@@ -670,11 +670,12 @@ section.mainGet-1 h1{
 /* PROFILE */
 /* THE CODE IS FOR PROFILE SECTION */
 
-/* .banner img{
-    width: 100%;
-    height: fit-content;
+.banner img{
+    /* width: 100%; */
+    /* height: fit-content; */
+    margin-bottom: 2rem;
     z-index: 1;
-} */
+}
 
 .profilebar{
     text-align: center;
@@ -697,11 +698,14 @@ section.mainGet-1 h1{
 
 /* .profilebar .profilelinks .githublink{
     line-height: 1.5rem;
-    display: flex;
     align-items: center;
     justify-content: center;
-
 } */
+
+.profilebar .profilelinks .githublink{
+    display: flex;
+    justify-content: center;
+}
 
 /* .profilebar .profilelinks .personalink{
     align-items: center;
@@ -738,13 +742,13 @@ section.mainGet-1 h1{
     width: 0.5rem;
     height: 30rem;
     border-radius: 4px;
-    margin-right: 15rem;
-    margin-left: 3rem;
+    margin-right: 12rem;
+    margin-left: 6rem;
 }
-/* .work{
-    margin: 149px 0 50px 50px;
+.work{
+    margin: 80px 0 40px 0;
 
-} */
+}
 
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
