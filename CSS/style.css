@@ -797,9 +797,9 @@ footer h6:after {
     padding: 7px 30px;
     line-height: 47px;
 }
- .btn-footer:hover {
+.btn-footer:hover {
     text-decoration: none;
- }
+}
 footer ul li {
     list-style: none;
     display: block;
