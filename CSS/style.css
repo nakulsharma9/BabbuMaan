@@ -498,7 +498,7 @@ section.mainGet-1 h1{
     margin: 2rem auto;
     border-radius: 50px;
     width: 80%;
-    padding: 6rem 2rem;
+    padding: 4rem 2rem;
     grid-template-columns: repeat(1,8fr);
     word-break: break-word;
 }
@@ -520,8 +520,8 @@ section.mainGet-1 h1{
     height: 3rem;
 }
 .form a{
-    float:right;
-    clear:right;
+    /* float:right; */
+    /* clear:right; */
 }
 
 /* GET STARTED PAGE SECOND */
@@ -540,7 +540,6 @@ section.mainGet-1 h1{
 }
 .tags .tag-warp{
     background-color: var(--primary);
-    margin: auto auto;
     border-radius: 50px;
     width: 80%;
     padding: 3rem 3rem;
@@ -558,15 +557,16 @@ section.mainGet-1 h1{
     margin: auto;
 }
 .tags a img{
-    position: absolute;
+    /* position: absolute; */
     right: 31rem;
     top:107%;
 }
 
 /* GET STARTED PAGE 3 */
 
-.GetMain{
-    background-image: url('/images/back-upload.png');
+.back-getmain{
+    /* position: absolute; */
+    width: 50%;
 }
 .GetMain h1{
     color: var(--primary);
@@ -581,6 +581,14 @@ section.mainGet-1 h1{
 }
 .getS3{
     flex-direction: column;
+    margin: 3rem auto;
+    background-image: url('/images/back-upload.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding: 6rem;
 }
 .GetMain .inpage img{
     position: absolute;
@@ -594,8 +602,7 @@ section.mainGet-1 h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
-    width: 20rem;
-    /* padding-bottom: 3rem; */
+    flex-direction: row;
 }
 .inpagebtn a{
     padding: 4rem;
