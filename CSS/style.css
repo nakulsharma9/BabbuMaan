@@ -648,6 +648,8 @@ section.mainGet-1 h1{
 
 
 /* CARDS */
+/*The CSS code for CARDS*/
+/*******************************************************************************************************************************************************************************************/
 
 
 .cards{
@@ -676,6 +678,8 @@ section.mainGet-1 h1{
 
 /* PROFILE */
 /* THE CODE IS FOR PROFILE SECTION */
+/********************************************************************************************************************************************************************/
+
 
 .banner img{
     width: 100%;
@@ -820,9 +824,9 @@ hr{
     border: none;
     border-radius: 3px;
     height: 4.2px;
-    width: 250px;
+    width: 300px;
     text-align: left;
-    margin-left: 200px;
+    margin-left: 290px;
     /* margin-top: 24px; */
     /* margin-bottom: 24px; */
 }
@@ -839,7 +843,18 @@ hr{
     display: inline-grid;
     grid-template-columns: repeat(3, 250px);
 }
-
+.btnmore{
+    display: flex;
+    justify-content: center;
+}
+.btnmore .btn3{
+    background-color: var(--primary);
+}
+.btnmore .btn3 a{
+    color: var(--pure);
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
 /**************************************************************************************************************************************************/
@@ -971,4 +986,45 @@ section.aboutMain .AboutText{
     content: '\201C';
     font-size: 3rem;
     color: var(--primary);
+}
+
+/**********************************************************************************/
+/*********************************************************************************/
+/* New Footer */
+.row1{
+    padding-right: 5rem;
+}
+.row1 h1{
+    font-size: 1.2rem;
+    font-family: Poppins;
+    font-weight: 400;
+    color: var(--pure);
+}
+.row1 p{
+    color: var(--redd);
+    font-size: 0.5rem;
+    font-weight: 100;
+}
+.row2{
+    padding-right: 5rem;
+}
+.row2 h5{
+    color: var(--redd);
+}
+
+.row2 h3{
+    font-size: 1rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+.footersocial{
+    padding-right: 5rem;
+}
+.footersocial .socialbox{
+    border: 0.1rem solid var(--primary);
+    border-radius: 0.3rem;
+}
+.footerqwiklinks h1{
+    font-size: 1.2rem;
+    color: var(--redd);
 }
