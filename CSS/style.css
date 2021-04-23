@@ -671,7 +671,7 @@ section.mainGet-1 h1{
 /* THE CODE IS FOR PROFILE SECTION */
 
 .banner img{
-    /* width: 100%; */
+    width: 100%;
     /* height: fit-content; */
     margin-bottom: 2rem;
     z-index: 1;
