@@ -519,10 +519,10 @@ section.mainGet-1 h1{
     width: 70%;
     height: 3rem;
 }
-.form a{
-    /* float:right; */
-    /* clear:right; */
-}
+/* .form a{
+    float:right;
+    clear:right;
+} */
 
 /* GET STARTED PAGE SECOND */
 /* HERE GOES THE CODE FOR SECOND PAGE OF GETSTARTED */
@@ -757,7 +757,9 @@ section.mainGet-1 h1{
 }
 .skills{
     margin: 12px;
-    vertical-align: top;
+    /* vertical-align: top; */
+    margin-bottom: 5rem;
+
 }
 .skills h2{
     padding-bottom: 0.5rem  ;
@@ -766,13 +768,14 @@ section.mainGet-1 h1{
     border: 0.15rem solid var(--primary);
     width: 800px;;
     border-radius: 1rem;
+    /* padding-bottom: 3rem; */
 }
 .skillbox .skillin{
     display: inline-grid;
     grid-template-columns: repeat(4, 200px);
     /* grid-template-columns: 100px 100px 100px; */
     /* grid-template-rows: 80px auto 80px;  */
-    column-gap: 10px;
+    /* column-gap: 10px; */
     row-gap: 15px;
     padding: 2rem 2rem;
     /* padding-left: 2rem; */
@@ -782,17 +785,59 @@ section.mainGet-1 h1{
 .skillin h4{
     color: var(--obsedian);
     font-size: 1.5rem;
-    font-family: Montserat;
-         
+    font-family: Montserat;       
 }
 .certification{
-    margin: 50px;
-    vertical-align: bottom;
+    margin: 20px;
+    /* vertical-align: bottom; */
+}
+.certification h2{
+    padding-bottom: 0.3rem;
 }
 .certification .certificatebox{
     border: 0.15rem solid var(--primary);
     width: 800px;;
     border-radius: 1rem;
+}
+.certificatebox .certificatein{
+    display: inline-grid;
+    grid-template-columns: repeat(4, 200px);
+    /* grid-template-columns: 100px 100px 100px; */
+    /* column-gap: 10px; */
+    row-gap: 15px;
+    padding: 2rem 2rem;
+    /* padding-left: 2rem; */
+    /* padding-bottom: 2rem; */
+}
+.certificatein h4{
+    color: var(--obsedian);
+    font-size: 1.5rem;
+    font-family: Montserat; 
+}
+hr{
+    background-color: var(--ternary);
+    margin-top: 4rem;
+    border: none;
+    border-radius: 3px;
+    height: 4.2px;
+    width: 250px;
+    text-align: left;
+    margin-left: 200px;
+    /* margin-top: 24px; */
+    /* margin-bottom: 24px; */
+}
+.pinnedproject{
+    padding-top: 3rem;
+}
+.pinnedproject .pinnedtitle{
+    color: var(--primary);
+    text-align: center;
+    font-size: 22px;
+    font-family: Poppins;
+}
+.pinnedinpro{
+    display: inline-grid;
+    grid-template-columns: repeat(3, 250px);
 }
 
 /* FOOTER  */
