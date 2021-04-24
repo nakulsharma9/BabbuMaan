@@ -1019,12 +1019,35 @@ section.aboutMain .AboutText{
 }
 .footersocial{
     padding-right: 5rem;
+    align-items: center;
+
 }
 .footersocial .socialbox{
     border: 0.1rem solid var(--primary);
-    border-radius: 0.3rem;
+    border-radius: 1.25rem;
 }
 .footerqwiklinks h1{
     font-size: 1.2rem;
     color: var(--redd);
+}
+.socialbox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    /* margin-right: 0.5rem; */
+    margin-bottom: 1rem;
+}
+.socialbox a{
+    padding: 1rem;
+}
+.footersocial .btn3{
+    /* align-items: center; */
+    border: 2px solid var(--primary);
+    background-color: transparent;
+    color: var(--pure)       ;
+    /* text-align: center; */
+
+}
+.abc{
+    padding-bottom: 200px;
 }
