@@ -858,7 +858,7 @@ hr{
 /* FOOTER  */
 /* THIS IS CODE FOR FOOTER,,,,,, */
 /**************************************************************************************************************************************************/
-footer h1{
+/* footer h1{
     font-size: 2rem;
     color: var(--primary);
     font-family: Poppins;
@@ -929,7 +929,7 @@ height: 100%;
 footer{
     color: var(--pure);
     background-color: var(--dark);
-}
+} */
 /************************************************************************************************************************************************/
 
 /* ABOUT SECTION  */
@@ -991,63 +991,115 @@ section.aboutMain .AboutText{
 /**********************************************************************************/
 /*********************************************************************************/
 /* New Footer */
-.row1{
-    padding-right: 5rem;
+
+footer{
+    background-color: var(--dark);
 }
-.row1 h1{
-    font-size: 1.2rem;
+footer h1{
     font-family: Poppins;
+    font-size: 29px;
     font-weight: 400;
     color: var(--pure);
 }
-.row1 p{
-    color: var(--redd);
-    font-size: 0.5rem;
-    font-weight: 100;
+footer h2{
+    font-family: Poppins;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--rosey); 
 }
-.row2{
-    padding-right: 5rem;
+footer svg{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
 }
-.row2 h5{
-    color: var(--redd);
+footer li{
+    list-style-type: none; /* Remove bullets */
+    font-family: Poppins;
+    font-weight: 400;
+    color: var(--ternary);
+    font-size: 17px;
+    padding-bottom: 1rem;
 }
-
-.row2 h3{
-    font-size: 1rem;
-    font-weight: 100;
-    padding-bottom: 3rem;
-}
-.footersocial{
-    padding-right: 5rem;
-    align-items: center;
-
-}
-.footersocial .socialbox{
-    border: 0.1rem solid var(--primary);
-    border-radius: 1.25rem;
-}
-.footerqwiklinks h1{
-    font-size: 1.2rem;
-    color: var(--redd);
-}
-.socialbox{
+footer .callOut{
     display: flex;
-    justify-content: space-between;
-    margin-top: 2rem;
-    /* margin-right: 0.5rem; */
-    margin-bottom: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-.socialbox a{
+footer .subs{
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+}
+footer .subs h4{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--ternary);
+}
+footer .subs .btn4{
+    width: 82px;
+    height: 40px;
+    align-items: center;
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    background-color: transparent;
+    color: var(--pure);
+    text-align: center;
+    font-family: Poppins;
+    font-weight:400;
+    font-size: 12px;
+}
+footer .socialLinkbox{
+    width: 200px;
+    height: 70px;
+    border: 2px solid var(--primary);
+    border-radius: 20px;
+}
+footer .socialLinkbox a{
+    padding: 1.2rem;
+}
+
+
+
+.footerbaseLines{
     padding: 1rem;
 }
-.footersocial .btn3{
-    /* align-items: center; */
-    border: 2px solid var(--primary);
-    background-color: transparent;
-    color: var(--pure)       ;
-    /* text-align: center; */
+.footerbaseLines p span{
+    color: var(--pure);
+}
+.footerbaseLines p{
+    font-family: Montserrat;
+    font-size: 12x;
+    font-weight: 400;
+    color: var(--rosey);
+}
+.footerbaseLines h3{
+    font-family:Montserrat;
+    font-size: 17px;
+    color: var(--ternary);
+    font-weight: 500;
+}
 
+
+.footerItem{
+    display: grid;
+    grid-auto-flow: column;
 }
-.abc{
-    padding-bottom: 200px;
+.item{
+    padding-right: 2rem;
 }
+.itme .footermainText{
+    color: var(--pure);
+}
+.FooterGridContainer{
+    padding-top :3rem;
+    padding-bottom: 5rem;
+}
+.midfooterBAR{
+    border-left: 2px solid var(--primary);
+  height: 306px;
+  padding-left: 1.5rem;
+  transform: translateY(10%);
+}
+
