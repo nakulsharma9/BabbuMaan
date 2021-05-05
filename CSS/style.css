@@ -611,6 +611,9 @@ section.mainGet-1 h1{
 
 /* VIEW PROJECTS PAGE  */
 /* THE CSS FOR THE VIEW PROJECT PAGE  */
+/***********************************************************************************************************************************************************************************/
+
+
 .some{
     background-color: var(--primary);
 }
@@ -649,7 +652,6 @@ section.mainGet-1 h1{
 
 /* CARDS */
 /*The CSS code for CARDS*/
-/*******************************************************************************************************************************************************************************************/
 
 
 .cards{
@@ -693,8 +695,6 @@ section.mainGet-1 h1{
 }
 .profilebar .profileimage img{
     width: 226px;
-    /* clip-path: polygon(0% 0%, 93% 0, 84% 43%, 46% 40%, 0 70%);  */
-    /* position: relative; */
     color: var(--primary);
 }
 .profileimage p{
@@ -707,47 +707,18 @@ section.mainGet-1 h1{
     /* align-items: center; */
 }
 
-/* .profilebar .profilelinks .githublink{
-    line-height: 1.5rem;
-    align-items: center;
-    justify-content: center;
-} */
-
 .profilebar .profilelinks .githublink{
     display: flex;
     justify-content: center;
 }
-
-/* .profilebar .profilelinks .personalink{
-    align-items: center;
-    line-height: 1.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    word-spacing: 2rem;
-} */
  
 .profilelinks p{
     margin-top: 2rem    ;
     text-decoration: none;
     color: var(--rosey);
     margin: 2px;
-
 } 
 
-/* .profilelinks p img{
-   width: 20px;
-   height: 30px;
-} */
-/* .profilelinks button{
-    background-color: var(--primary);
-    margin-bottom: 2rem;
-
-} */
-/* .profilelinks button a{
-    color: var(--pure);
-    text-decoration: none;
-} */
 .verticaline {
     background-color: var(--ternary);
     width: 0.3rem;
@@ -763,7 +734,6 @@ section.mainGet-1 h1{
     margin: 12px;
     /* vertical-align: top; */
     margin-bottom: 5rem;
-
 }
 .skills h2{
     padding-bottom: 0.5rem  ;
@@ -776,27 +746,21 @@ section.mainGet-1 h1{
 }
 .skillbox .skillin{
     display: inline-grid;
-    grid-template-columns: repeat(4, 200px);
-    /* grid-template-columns: 100px 100px 100px; */
-    /* grid-template-rows: 80px auto 80px;  */
-    /* column-gap: 10px; */
+    grid-template-columns: repeat(4,200px);
     row-gap: 15px;
     padding: 2rem 2rem;
-    /* padding-left: 2rem; */
-    /* padding-bottom: 2rem; */
-
 }
-.skillin h4{
+.skillin li{
+    list-style-type: none;
     color: var(--obsedian);
     font-size: 1.5rem;
     font-family: Montserat;       
 }
 .certification{
-    margin: 20px;
-    /* vertical-align: bottom; */
+    margin-top: 50px;
 }
 .certification h2{
-    padding-bottom: 0.3rem;
+    padding-bottom: 0.5rem;
 }
 .certification .certificatebox{
     border: 0.15rem solid var(--primary);
@@ -806,47 +770,39 @@ section.mainGet-1 h1{
 .certificatebox .certificatein{
     display: inline-grid;
     grid-template-columns: repeat(4, 200px);
-    /* grid-template-columns: 100px 100px 100px; */
-    /* column-gap: 10px; */
     row-gap: 15px;
     padding: 2rem 2rem;
     /* padding-left: 2rem; */
     /* padding-bottom: 2rem; */
 }
-.certificatein h4{
+.certificatein li{
+    list-style-type: none;
     color: var(--obsedian);
     font-size: 1.5rem;
     font-family: Montserat; 
 }
-hr{
-    background-color: var(--ternary);
-    margin-top: 4rem;
-    border: none;
-    border-radius: 3px;
-    height: 4.2px;
-    width: 300px;
-    text-align: left;
-    margin-left: 290px;
-    /* margin-top: 24px; */
-    /* margin-bottom: 24px; */
-}
+
 .pinnedproject{
-    padding-top: 3rem;
+    padding-top: 3.2rem;
+    margin-bottom: 0.5rem;
 }
 .pinnedproject .pinnedtitle{
     color: var(--primary);
     text-align: center;
     font-size: 22px;
     font-family: Poppins;
+    margin-bottom: 0.6rem;
 }
 .pinnedinpro{
     display: inline-grid;
-    grid-template-columns: repeat(3, 250px);
+    grid-template-columns: repeat(3, 350px);
 }
 .btnmore{
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
 }
+
 .btnmore .btn3{
     background-color: var(--primary);
 }
@@ -854,9 +810,12 @@ hr{
     color: var(--pure);
     text-decoration: none;
     font-size: 1.2rem;
+    font-family: Montserrat;
 }
+
 /* ABOUT SECTION  */
 /* THIS THE CSS FOR ABOUT SECTION */
+/***************************************************************************************************/
 
 .about-section h1{
     margin-top: 3rem;
