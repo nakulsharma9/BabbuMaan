@@ -1026,18 +1026,19 @@ footer .callOut{
     justify-content: center;
 }
 footer .subs{
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding: 2rem;
 }
 footer .callSUb{
-    transform: translateY(30%);
+    transform: translateY(60%);
 }
 footer .subs h4{
     font-family: Poppins;
     font-weight: 400;
     font-size: 15px;
+    padding: 1rem;
     color: var(--ternary);
 }
 footer .subs .btn4{
