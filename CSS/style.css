@@ -1093,7 +1093,7 @@ footer .socialLinkbox a{
 .item{
     padding-right: 2rem;
 }
-.itme .footermainText{
+.item .footermainText{
     color: var(--pure);
 }
 .FooterGridContainer{
@@ -1106,4 +1106,5 @@ footer .socialLinkbox a{
   padding-left: 1.5rem;
   transform: translateY(10%);
 }
+
 
