@@ -1009,7 +1009,10 @@ footer .socialLinkbox a{
     font-weight: 500;
 }
 
-
+footer .item a{
+    color: var(--ternary);
+    text-decoration: none;
+}
 .footerItem{
     display: grid;
     grid-auto-flow: column;
