@@ -43,6 +43,7 @@ header nav .branding a{
     text-decoration: none;
     color: var(--dark);
 }
+
 header nav .right a{
     color: var(--dark);
     font-family: 'Montserrat', sans-serif;
