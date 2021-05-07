@@ -610,8 +610,8 @@ section.mainGet-1 h1{
 }
 
 
-/* VIEW PROJECTS PAGE  */
-/* THE CSS FOR THE VIEW PROJECT PAGE  */
+/*SECTION SEARCH PAGE  */
+/* THE CSS FOR THE SECTION SEARCH PAGE  */
 /***********************************************************************************************************************************************************************************/
 
 
@@ -632,15 +632,15 @@ section.mainGet-1 h1{
     height: 2rem;
     outline: none;
     border: none;
-    /* border-radius: 10px; */
+    border-radius: 0.2rem;
     opacity: 64%;
     margin-top: 0.5rem;
     padding: 0.2rem;
+    margin-right: 0.2rem;
 }
 .some img{
     vertical-align: middle;
 }
-
 
 .avatar {
     /* vertical-align: middle;   */
@@ -661,23 +661,22 @@ section.mainGet-1 h1{
 }
 .carddiv{
     display: inline-grid;
-    grid-template-columns: repeat(4, 1fr);    
+    grid-template-columns: repeat(4, 400px);    
 }
 
 .cardview{
     width: 75%;   
     text-align: center;
     border: var(--primary) 2px solid;
-    margin: 1rem 1rem;
+    margin: 1rem;
+    margin-left: 10rem;
 }
 
 .cardview img{
     width: 100%;
     overflow: hidden;
 }
-.cardview .cardcontent{
-    text-align: center;
-}
+
 
 /* PROFILE */
 /* THE CODE IS FOR PROFILE SECTION */
@@ -754,10 +753,11 @@ section.mainGet-1 h1{
 .skillin li{
     list-style-type: none;
     color: var(--obsedian);
-    font-size: 1.5rem;
-    font-family: Montserat;       
+    font-size: 1.8rem;
+    font-family: Montserat;   
+    padding: 0.3rem;    
 }
-.certification{
+.certification{ 
     margin-top: 50px;
 }
 .certification h2{
@@ -771,16 +771,15 @@ section.mainGet-1 h1{
 .certificatebox .certificatein{
     display: inline-grid;
     grid-template-columns: repeat(4, 200px);
-    row-gap: 15px;
+    row-gap: 18px;
     padding: 2rem 2rem;
-    /* padding-left: 2rem; */
-    /* padding-bottom: 2rem; */
 }
 .certificatein li{
     list-style-type: none;
     color: var(--obsedian);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-family: Montserat; 
+    padding: 0.3rem;
 }
 
 .pinnedproject{
@@ -793,6 +792,7 @@ section.mainGet-1 h1{
     font-size: 22px;
     font-family: Poppins;
     margin-bottom: 0.6rem;
+    margin-top: 2rem;
 }
 .pinnedinpro{
     display: inline-grid;
@@ -801,7 +801,7 @@ section.mainGet-1 h1{
 .btnmore{
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 
 .btnmore .btn3{
@@ -873,7 +873,9 @@ section.aboutMain .AboutText{
 
 /**********************************************************************************/
 /*********************************************************************************/
-/* New Footer */
+/* FOOTER CODE */
+/*THE CODE FOR THE FOOTER*/
+
 
 footer{
     background-color: var(--dark);
@@ -948,8 +950,6 @@ footer .socialLinkbox a{
     padding: 1.2rem;
 }
 
-
-
 .footerbaseLines{
     padding: 1rem;
 }
@@ -989,7 +989,7 @@ footer .item a{
 }
 .midfooterBAR{
     border-left: 2px solid var(--primary);
-  height: 306px;
-  padding-left: 1.5rem;
-  transform: translateY(10%);
+    height: 306px;
+    padding-left: 1.5rem;
+    transform: translateY(10%);
 }
