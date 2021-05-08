@@ -685,9 +685,9 @@ section.mainGet-1 h1{
 
 .banner img{
     width: 100%;
-    /* height: fit-content; */
     margin-bottom: 2rem;
-    z-index: 1;
+    position: absolute;
+    z-index: -1;
 }
 
 .profilebar{
@@ -698,9 +698,11 @@ section.mainGet-1 h1{
     color: var(--primary);
 }
 .profileimage p{
-    /* position: absolute; */
+    position: absolute;
     font-size: 1.5rem;
-    margin-bottom: 1rem;    
+    z-index: 1;
+    /* margin-bottom: rem;  */
+    /* margin-top: 18rem;    */
 }
 .profileimage{
     margin-bottom: 2rem;
