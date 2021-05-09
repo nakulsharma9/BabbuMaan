@@ -660,8 +660,9 @@ section.mainGet-1 h1{
     
 }
 .carddiv{
-    display: inline-grid;
-    grid-template-columns: repeat(4, 400px);    
+    display: grid;
+    /* grid-auto-flow: column; */
+    grid-template-columns: repeat(auto-fit, 400px);    
 }
 
 .cardview{
@@ -686,55 +687,20 @@ section.mainGet-1 h1{
     width: 100%;
     margin-bottom: 2rem;
     position: absolute;
-    z-index: -1;
+    /* z-index: -1; */
 }
-
 .profilebar{
     text-align: center;
-    transform: translateY(-25%);
+    transform: translateY(-20%);
 }
-.profilebar .profileimage img{
-    width: 226px;
-    color: var(--primary);
-}
-.profileimage p{
-    position: absolute;
-    font-size: 1.5rem;
-    z-index: 1;
-    /* margin-bottom: rem;  */
-    /* margin-top: 18rem;    */
-}
-.profileimage{
-    margin-bottom: 2rem;
-    /* align-items: center; */
-}
-
-.profilebar .profilelinks .githublink{
-    display: flex;
-    justify-content: center;
-}
- 
-.profilelinks p{
-    margin-top: 2rem    ;
-    text-decoration: none;
-    color: var(--rosey);
-    margin: 2px;
-} 
-
-.verticaline {
-    border: 1px solid var(--ternary);
-    width: 0.3rem;
-    height: 30rem;
-    border-radius: 4px;
-    margin-right: 4rem;
-    margin-left: 6rem;
-}
-.work{
-    margin: 80px 0 40px 0;
+.skillsgrid{
+    display: grid;
+    grid-auto-flow: column;
+    background-color: var(--yellow);
+    margin-top: 25rem;
 }
 .skills{
     margin: 12px;
-    /* vertical-align: top; */
     margin-bottom: 5rem;
 }
 .skills h2{
@@ -744,7 +710,6 @@ section.mainGet-1 h1{
     border: 0.15rem solid var(--primary);
     width: 800px;;
     border-radius: 1rem;
-    /* padding-bottom: 3rem; */
 }
 .skillbox .skillin{
     display: inline-grid;
@@ -758,9 +723,6 @@ section.mainGet-1 h1{
     font-size: 1.8rem;
     font-family: Montserat;   
     padding: 0.3rem;    
-}
-.certification{ 
-    margin-top: 50px;
 }
 .certification h2{
     padding-bottom: 0.5rem;
@@ -783,7 +745,6 @@ section.mainGet-1 h1{
     font-family: Montserat; 
     padding: 0.3rem;
 }
-
 .pinnedproject{
     padding-top: 3.2rem;
     margin-bottom: 0.5rem;
@@ -798,7 +759,16 @@ section.mainGet-1 h1{
 }
 .pinnedinpro{
     display: inline-grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-auto-flow: column;
+    /* grid-template-columns: repeat(3, 350px); */
+}
+.verticaline {
+    border-left: 2.5px solid var(--ternary);
+    width: 0.3rem;
+    height: 30rem;
+    border-radius: 4px;
+    margin-right: 4rem;
+    margin-left: 6rem;
 }
 .btnmore{
     display: flex;
@@ -808,6 +778,7 @@ section.mainGet-1 h1{
 
 .btnmore .btn3{
     background-color: var(--primary);
+    
 }
 .btnmore .btn3 a{
     color: var(--pure);
@@ -815,6 +786,39 @@ section.mainGet-1 h1{
     font-size: 1.2rem;
     font-family: Montserrat;
 }
+/* 
+.profilebar .profileimage img{
+    width: 226px;
+    color: var(--primary);
+}
+.profileimage p{
+    position: absolute;
+    font-size: 1.5rem;
+    
+}
+.profileimage{
+    margin-bottom: 2rem;
+}
+
+.profilebar .profilelinks .githublink{
+    display: flex;
+    justify-content: center;
+}
+ 
+.profilelinks p{
+    margin-top: 2rem    ;
+    text-decoration: none;
+    color: var(--rosey);
+    margin: 2px;
+} 
+
+
+.work{
+    margin: 80px 0 40px 0;
+}
+
+
+ */
 
 /* ABOUT SECTION  */
 /* THIS THE CSS FOR ABOUT SECTION */
