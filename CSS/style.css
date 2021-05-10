@@ -334,29 +334,9 @@ section .rectOutr .rectInner .loginbox {
 
 section .rectOutr .rectInner .loginbox .button_signup{
     float: right;
-    text-align: center;
-    width:158px;
-    padding: 12px 23px;
-    height:17px;
-    border-radius: 8px;
-    border: 2px solid var(--primary);
-    font-family: Montserrat;
-    cursor: pointer;
-  }
-  section .rectOutr .rectInner .loginbox .button_signup a{
-    text-decoration: none;
-    text-align: center;
-    font-size: 17px;
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    cursor: pointer;
-  }
-  section .rectOutr .rectInner .loginbox .button_signup:hover {
-      border: none;
-      background-color: var(--primary);
-  }
+    margin-top: 1.2rem;
+} 
+
 section .rectOutr .rectInner h1 {
     margin: 0;
     padding: 0 0 1.25rem;
@@ -366,10 +346,11 @@ section .rectOutr .rectInner h1 {
 section .rectOutr .rectInner .loginbox{
     background: none;
 }
-section .rectOutr .rectInner .loginbox p {
+section .rectOutr .rectInner .loginbox h2 {
     margin: 0;
     padding: 0;
-    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: Raleway;
 }
   
 section .rectOutr .rectInner .loginbox input {
@@ -391,33 +372,33 @@ section .rectOutr .rectInner .loginbox input[type="text"],
     font-size: 1rem;
 }
 section .rectOutr .rectInner .quicklink h1 {
-        overflow: hidden;
-        text-align: center;
-        font-weight: 200;
-        font-size: 0.75rem;;
-        font-family: 'Montserrat', sans-serif;
-        margin-top: 3rem;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.75rem;;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 3rem;
 }
       
 section .rectOutr .rectInner .quicklink  h1:before,
 section .rectOutr .rectInner .quicklink h1:after {
-        background-color: #000;
-        content: "";
-        display: inline-block;
-        height: 0.16rem;
-        position: relative;
-        vertical-align: middle;
-        width: 35%;
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 0.16rem;
+    position: relative;
+    vertical-align: middle;
+    width: 35%;
 }
       
 section .rectOutr .rectInner .quicklink h1:before {
-        right: 0.5em;
-        margin-left: -50%;
+    right: 0.5em;
+    margin-left: -50%;
 }
       
 section .rectOutr .rectInner .quicklink h1:after {
-        left: 0.5em;
-        margin-right: -50%;
+    left: 0.5em;
+    margin-right: -50%;
 }
 section .rectOutr .rectInner .link{
     border: none;
@@ -429,11 +410,17 @@ section .rectOutr .rectInner .link{
 } 
 .extra{
     flex-direction: column;
-    margin: 4rem 0;
+    margin: 4.2rem;
 }
 .extra a{
     padding: 0.3rem;
     text-decoration: none;
+}
+.extra p{
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: var(--primary);
 }
 .extra a:visited{
    color: var(--primary);
@@ -556,9 +543,7 @@ section.mainGet-1 h1{
     padding: 3rem 3rem;
     display: block;
 }
-/* .tagin{
-    align-items: center;
-} */
+
 .tag-warp input{
     width: 730px;
     height: 500px;
@@ -577,6 +562,7 @@ section.mainGet-1 h1{
 }
 
 /* GET STARTED PAGE 3 */
+/* HERE GOES THE CODE FOR CET STARTED PAGE 3 */
 
 .back-getmain{
     /* position: absolute; */
@@ -603,7 +589,9 @@ section.mainGet-1 h1{
     height: auto;
     margin: auto;
     padding: 6rem;
+    margin-bottom: 2rem;
 }
+
 .GetMain .inpage img{
     position: absolute;
     margin-left: 1rem;
