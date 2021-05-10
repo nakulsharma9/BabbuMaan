@@ -98,7 +98,6 @@ header nav .right a{
 } 
 
 img{
-    /* pointer-events: none;  */
     user-select: none;  
 }
 
@@ -311,6 +310,10 @@ section .rectOutr .rectInner .login{
     justify-content: center;
     display: flex;
 }
+.login img{
+    margin-left: 0.4rem;
+}
+
 section .rectOutr .rectInner h2{
     font-family: 'Montserrat', sans-serif;
     color:var(--primary);
