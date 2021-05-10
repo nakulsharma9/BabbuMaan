@@ -499,6 +499,9 @@ section.mainGet-1 h1{
 }
 .form{
     display: block;
+    /* display: block; */
+    margin-left: auto;
+    margin-right: auto;
     background-color: var(--primary);
     margin: 2rem auto;
     border-radius: 50px;
@@ -508,11 +511,17 @@ section.mainGet-1 h1{
     word-break: break-word;
 }
 .form label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.5rem;
     color: var(--pure);
 }
 .form input{
-    margin-top: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 0.5rem; */
     border-radius: 0.5rem;
     opacity: 64%; 
     outline: none;
@@ -521,18 +530,20 @@ section.mainGet-1 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: var(--dark);
-    width: 70%;
+    width: 80%;
     height: 3rem;
 }
-/* .form a{
-    float:right;
-    clear:right;
-} */
+.form a{
+    float: unset;
+    clear: both;
+}
 
 /* GET STARTED PAGE SECOND */
 /* HERE GOES THE CODE FOR SECOND PAGE OF GETSTARTED */
 
 .tags{
+    display: grid;
+    grid-auto-flow: row;
     background-color: var(--primary);
     margin: 1rem auto;
     border-radius: 50px;
@@ -550,6 +561,9 @@ section.mainGet-1 h1{
     padding: 3rem 3rem;
     display: block;
 }
+/* .tagin{
+    align-items: center;
+} */
 .tag-warp input{
     width: 730px;
     height: 500px;
@@ -559,12 +573,12 @@ section.mainGet-1 h1{
     opacity: 64%;
     outline:none;
     border-radius: 20px;
-    margin: auto;
+    margin-top: 1.5rem;
+    float: right;
 }
 .tags a img{
-    /* position: absolute; */
-    right: 31rem;
-    top:107%;
+    /* padding-top: 1rem; */
+    margin-left: 50rem;
 }
 
 /* GET STARTED PAGE 3 */
