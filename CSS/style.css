@@ -930,6 +930,42 @@ section.aboutMain .AboutText{
     color: var(--primary);
 }
 
+/***********************************************************************************/
+/******/
+/* FEED CODE  */
+.feed .feedcontent{
+    padding-top: 4rem;
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 5px;
+    grid-template-rows: repeat(4,480px);
+}
+.feed .contentone
+{
+    background-color: var(--pinkey);
+    align-items: center;
+}
+.contentone{
+    text-align: center;
+    /* align-items: center; */
+}
+.contentone p{
+    padding: 1rem;
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+.contentone img{
+    width: 60%;
+    height: 80%;
+    overflow: hidden;
+    display: inline-block;
+    /* border: 1px solid green;  */
+}
+
+
+
 /**********************************************************************************/
 /*********************************************************************************/
 /* FOOTER CODE */
